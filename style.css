@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,300;1,800&display=swap');
+
+:root {
+    --text-color: #DF927D;
+    --text-color-blend: #D0355B;
+    --back-up-color: #7E7AF9;
+    font-family: 'Open Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url('beach.jpg');
+
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 27px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: 0.6s;
+}
+
+li a:hover {
+    background-color: var(--text-color);
+}
+
+.active {
+    background-color: var(--text-color);
+}
+
+button {
+    border: 2px solid var(--back-up-color);
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--back-up-color);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: var(--back-up-color);
+    color: #000;
+}
+
+/* hero content */
+.home-content {
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+
+.home-container {
+    align-items: center;
+    width: 600px;
+}
+
+.home-container h1 {
+    color: #fff;
+    font-size: 5rem;
+    padding-bottom: 30px;
+}
+
+.home-container p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#explore {
+    margin-left: 20px;
+}
