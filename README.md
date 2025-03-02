@@ -1,6 +1,6 @@
 # Landing Page Project
 
-This is a simple HTML and CSS landing page template. The page includes a navigation menu, a hero section with a background image, and call-to-action buttons.
+This is a simple HTML and CSS landing page template. The page includes a navigation menu, a hero section with a background image, and call-to-action buttons
 
 ## Project Screenshot
 
